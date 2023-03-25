@@ -1,0 +1,59 @@
+% Gianna Foti 
+% EGR 101
+
+
+% vector x 10 pts btw. 1 & 10
+x = linspace (1,10,10);
+
+% y1: x
+y1 = x;
+
+% y2: x squared
+y2 = x.^2; 
+
+% y3: x cubed
+y3 = x.^3
+
+% y4: x to the fourth
+y4 = x.^4
+
+% upper left y1, dash dot line
+subplot(2,2,1)
+plot(x,y1, 'k-.')
+xlabel 'x'
+ylabel 'y=x'
+
+% upper right y2 blue stars
+subplot (2,2,2)
+plot (x,y2,'b*')
+xlabel 'x'
+ylabel 'y=x^2'
+
+% lower left y3 red triangle point right
+subplot (2,2,3)
+plot (x,y3, 'r>')
+xlabel 'x'
+ylabel 'y=x^3'
+
+% lower right y4 green circles
+subplot (2,2,4)
+plot (x,y4,'go')
+xlabel 'x'
+ylabel 'y=x^4'
+
+%% Plot all in same plot 2 ways
+% single plot command
+figure(2)
+plot(x,y1, 'k-.', x,y2, 'b*', x,y3, 'r>', x,y4, 'go')
+xlabel 'x'
+ylabel 'f(x)'
+legend ('y=x','y=x^2', 'y=x^3', 'y=x^4')
+
+% hold on/off
+figure(3)
+plot(x,y1, 'k-.')
+hold on
+plot (x,y2,'b*')
+plot (x,y3, 'r>')
+plot (x,y4,'go')
+hold off
