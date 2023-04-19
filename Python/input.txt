@@ -1,0 +1,4 @@
+Stark,Tony+53
+Romanoff,Natasha+39
+Rogers,Steve+108
+Banner,Bruce+54

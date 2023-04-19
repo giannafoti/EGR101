@@ -1,0 +1,13 @@
+
+Secret Code 8108
+Your guess was 8065 and the counter was 1
+Your guess was 8105 and the counter was 2
+Congrats! The Code, 8108, was guessed correctly in 3 guesses
+
+Secret Code 5138
+Your guess was 6738 and the counter was 1
+Your guess was 9876 and the counter was 2
+Congrats! The Code, 5138, was guessed correctly in 3 guesses
+
+Secret Code 4097
+Congrats! The Code, 4097, was guessed correctly in 1 guesses
